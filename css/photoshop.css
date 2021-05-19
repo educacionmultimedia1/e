@@ -1,0 +1,347 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo-brand{
+    min-width: 150px;
+    max-width: 180px;
+}
+
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.navbar{
+    background-color: #2bbfbf;
+    box-shadow: 0 5px 15px 0 rgba(104, 250, 255, 0.9);
+    min-height: 50px;
+    font-family: cocogoose pro, semiligth italic;
+
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+.nav-link:hover{
+    color: #5ff4ff;
+}
+
+
+.navbar-toggler{
+    font-size: 30px;
+    color: #95efff;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.dropdown-menu{
+    background-color: #2bbfbf;
+    text-align: center;
+}
+
+.dropdown-item{
+    color: #ffffff;
+}
+
+/*CONTENIDO*/
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*VIDEO COMERCIAL*/
+
+.ilu{
+
+    color: #fae810;
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+.nuevo{
+
+    color: #ffffff;
+    max-width: 100%;
+    height: 50px;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+.slid{
+    margin-top: 50px;
+}
+
+
+/*CAJAS SLIDER*/
+
+.titulo{
+
+    color: #ffffff;
+    max-width: 100%;
+    height: 50px;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-family: cocogoose demibold;
+}
+.caja1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.parrafo{
+
+    color: #ffffff;
+    max-width: 100%;
+    height: 200px;
+    margin: 0 auto 0px auto;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose ultralight;
+}
+
+
+
+
+/*CAJA NOSOTROS*/
+
+.nosostros{
+    color: #bc1622;
+    max-width: 100%;
+    height: 150px;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+
+/*CAJA LOGO Y TEXTO*/
+
+
+.caja1{
+    height: 450px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja1 img{
+    width: 320px;
+    height: 300px;
+}
+
+.parrafo{
+    margin-top: 50px;
+}
+
+
+/*CAJA APRENDE*/
+
+.boton{
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose ultralight;
+}
+
+.boton h6{
+    color: #ffffff;
+    margin-top: 7px;
+}
+
+.redes{
+    margin-top: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textolike{
+
+    color: #bc1622;
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+
+
+
+/*LINEA DIVISORA*/
+
+hr{
+    background-color: #ffffff;
+    height: 5px;
+    width: 80%;
+    margin-top: 50px;
+}
+
+
+/*CAJAS PATROCINADORES*/
+
+
+.pat{
+    color: #fae810;
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+.caja9{
+    background-color: rgba(104, 250, 255, 0.9);
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.caja9 h4{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caja9 img{
+    margin-top: 80px;
+    width: 100px;
+    
+}
+
+.caja10{
+    background-color: rgba(82, 192, 196, 0.9);
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caja10 h4{
+    color: #ffffff;
+    margin-top: 20px;
+    
+}
+
+.caja10 img{
+    margin-top: 90px;
+    width: 130px;
+}
+
+
+.caja11{
+    background-color: rgba(48, 117, 119, 0.9);
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caja11 h4{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caja11 img{
+    margin-top: 95px;
+    width: 160px;
+}
+
+.caja12{
+    background-color: rgba(35, 80, 82, 0.9);
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caja12 h4{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caja12 img{
+    margin-top: 50px;
+    width: 150px;
+}
+
+
+
+
+/*PIE*/
+
+.pie{
+    background-color: #2bbfbfd3;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.pie .logo-brand{
+    margin-top: 50px;
+}
+
+
+.list-inline p{
+    font-family: cocogoose demibold;
+}
+
+a ion-icon {
+    margin-top: 15px;
+    font-size: 25px;
+    color: #ffffff;
+}

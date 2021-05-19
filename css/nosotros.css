@@ -1,0 +1,480 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo-brand{
+    min-width: 150px;
+    max-width: 180px;
+}
+
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.navbar{
+    background-color: #0e0e0e;
+    box-shadow: 0 5px 15px 0 rgba(110, 110, 110, 0.9);
+    min-height: 50px;
+    font-family: cocogoose pro, semiligth italic;
+
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+.nav-link:hover{
+    color: #535353;
+}
+
+
+.navbar-toggler{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.dropdown-menu{
+    background-color: #0e0e0e;
+    text-align: center;
+}
+
+.dropdown-item{
+    color: #ffffff;
+}
+
+/*CONTENIDO*/
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*VIDEO COMERCIAL*/
+
+.comercial{
+
+    color: #fae810;
+    max-width: 100%;
+    height: 150px;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+.video1{
+    margin-top: 20px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*CAJA NOSOTROS*/
+
+.nosostros{
+    color: #bc1622;
+    max-width: 100%;
+    height: 150px;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+
+
+
+/*CAJA LOGO Y TEXTO*/
+
+
+.caja1{
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja1 img{
+    width: 320px;
+    height: 300px;
+}
+
+.caja2{
+    height: 300px;
+    text-align: left;
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja2 p{
+    text-align: justify;
+}
+
+
+.member-details {
+    margin-top: 15px;
+    color: #ffffff;
+    bottom: 0;
+    font-family: cocogoose ultralight;
+    text-align: justify;
+}
+
+
+
+.member-details h4 {
+    font-family: cocogoose demibold;
+    color: #ffffff;
+    margin-top: 8%;
+}
+
+
+/*LINEA VENTAJAS*/
+
+.ventajas{
+
+    color: #fae810;
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+/*CAJAS VENTAJAS*/
+
+.caja3{
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja3 h4{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caja3 img{
+    margin-top: 80px;
+    width: 100px;
+    
+}
+
+.caja4{
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja4 h4{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caja4 img{
+    margin-top: 80px;
+    width: 100px;
+}
+
+
+.caja5{
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja5 h4{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caja5 img{
+    margin-top: 80px;
+    width: 100px;
+}
+
+/*VIDEO 2*/
+
+.spot{
+
+    color: #bc1622;
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+
+.video2{
+    margin-top: 20px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*LINEA DIVISORA*/
+
+hr{
+    background-color: #ffffff;
+    height: 5px;
+    width: 80%;
+    margin-top: 70px;
+}
+
+
+.absolute{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 800;
+    align-items: center;
+}
+
+/*CAJA APRENDE*/
+
+.content-center{
+    color: #ffffff;
+    max-width: 100%;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+/*CAJA DESCRIPCION PERSONAS*/
+
+.personas{
+    margin-top: 10px;
+    height: 110px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: cocogoose demibold;
+}
+
+/*CAJA PERSONAS*/
+
+
+.caja6{
+
+    margin-top: 20px;
+    height: 400px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja7{
+
+    margin-top: 20px;
+    height: 400px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja8{
+
+    margin-top: 20px;
+    height: 400px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.member-details {
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffff;
+    font-family: cocogoose ultralight;
+}
+
+.member-details h6 {
+    color: #fae810;
+    font-family: cocogoose demibold;
+}
+
+.content-center{
+    color: #ffffff;
+    max-width: 100%;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+
+/*CAJAS PATROCINADORES*/
+
+
+.pat{
+    color: #fae810;
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto 0px auto;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cocogoose demibold;
+}
+
+.caja9{
+    background-color: rgba(121, 121, 121, 0.9);
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja9 h4{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caja9 img{
+    margin-top: 60px;
+    width: 110px;
+    
+}
+
+.caja10{
+    background-color: rgba(97, 97, 97, 0.9);
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caja10 h4{
+    color: #ffffff;
+    margin-top: 20px;
+    
+}
+
+.caja10 img{
+    margin-top: 90px;
+    width: 130px;
+}
+
+
+.caja11{
+    background-color: rgba(65, 65, 65, 0.9);
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caja11 h4{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caja11 img{
+    margin-top: 95px;
+    width: 160px;
+}
+
+.caja12{
+    background-color: rgba(26, 26, 26, 0.9);
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja12 h4{
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caja12 img{
+    margin-top: 50px;
+    width: 150px;
+}
+
+
+
+
+/*PIE*/
+
+.pie{
+    background-color: #0e0e0eee;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.pie .logo-brand{
+    margin-top: 50px;
+}
+
+
+.list-inline p{
+    font-family: cocogoose demibold;
+}
+
+a ion-icon {
+    margin-top: 15px;
+    font-size: 25px;
+    color: #ffffff;
+}
